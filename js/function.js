@@ -11,53 +11,59 @@ tips[6].addEventListener("click", ver7);
 tips[7].addEventListener("click", ver8);
 tips[8].addEventListener("click", ver9);
 tips[9].addEventListener("click", ver10);
+tips[10].addEventListener("click", ver11);
 
 function ver1() {
     hideAll();
-    versions[9].style.display = "block";
+    versions[10].style.display = "block";
 }
 
 function ver2() {
     hideAll();
-    versions[8].style.display = "block";
+    versions[9].style.display = "block";
 }
 
 function ver3() {
     hideAll();
-    versions[7].style.display = "block";
+    versions[8].style.display = "block";
 }
 
 function ver4() {
     hideAll();
-    versions[6].style.display = "block";
+    versions[7].style.display = "block";
 }
 
 function ver5() {
     hideAll();
-    versions[5].style.display = "block";
+    versions[6].style.display = "block";
 }
 
 function ver6() {
     hideAll();
-    versions[4].style.display = "block";
+    versions[5].style.display = "block";
 }
 
 function ver7() {
     hideAll();
-    versions[3].style.display = "block";
+    versions[4].style.display = "block";
 }
 
 function ver8() {
     hideAll();
-    versions[2].style.display = "block";
+    versions[3].style.display = "block";
 }
 
 function ver9() {
     hideAll();
-    versions[1].style.display = "block";
+    versions[2].style.display = "block";
 }
 
 function ver10() {
+    hideAll();
+    versions[1].style.display = "block";
+}
+
+function ver11() {
     hideAll();
     versions[0].style.display = "block";
 }
