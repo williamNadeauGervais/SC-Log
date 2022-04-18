@@ -30,148 +30,154 @@ tips[25].addEventListener("click", ver26);
 tips[26].addEventListener("click", ver27);
 tips[27].addEventListener("click", ver28);
 tips[28].addEventListener("click", ver29);
+tips[29].addEventListener("click", ver30);
 
 function ver1() {
     hideAll();
-    versions[28].style.display = "block";
+    versions[29].style.display = "block";
 }
 
 function ver2() {
     hideAll();
-    versions[27].style.display = "block";
+    versions[28].style.display = "block";
 }
 
 function ver3() {
     hideAll();
-    versions[26].style.display = "block";
+    versions[27].style.display = "block";
 }
 
 function ver4() {
     hideAll();
-    versions[25].style.display = "block";
+    versions[26].style.display = "block";
 }
 
 function ver5() {
     hideAll();
-    versions[24].style.display = "block";
+    versions[25].style.display = "block";
 }
 
 function ver6() {
     hideAll();
-    versions[23].style.display = "block";
+    versions[24].style.display = "block";
 }
 
 function ver7() {
     hideAll();
-    versions[22].style.display = "block";
+    versions[23].style.display = "block";
 }
 
 function ver8() {
     hideAll();
-    versions[21].style.display = "block";
+    versions[22].style.display = "block";
 }
 
 function ver9() {
     hideAll();
-    versions[20].style.display = "block";
+    versions[21].style.display = "block";
 }
 
 function ver10() {
     hideAll();
-    versions[19].style.display = "block";
+    versions[20].style.display = "block";
 }
 
 function ver11() {
     hideAll();
-    versions[18].style.display = "block";
+    versions[19].style.display = "block";
 }
 
 function ver12() {
     hideAll();
-    versions[17].style.display = "block";
+    versions[18].style.display = "block";
 }
 
 function ver13() {
     hideAll();
-    versions[16].style.display = "block";
+    versions[17].style.display = "block";
 }
 
 function ver14() {
     hideAll();
-    versions[15].style.display = "block";
+    versions[16].style.display = "block";
 }
 
 function ver15() {
     hideAll();
-    versions[14].style.display = "block";
+    versions[15].style.display = "block";
 }
 
 function ver16() {
     hideAll();
-    versions[13].style.display = "block";
+    versions[14].style.display = "block";
 }
 
 function ver17() {
     hideAll();
-    versions[12].style.display = "block";
+    versions[13].style.display = "block";
 }
 
 function ver18() {
     hideAll();
-    versions[11].style.display = "block";
+    versions[12].style.display = "block";
 }
 
 function ver19() {
     hideAll();
-    versions[10].style.display = "block";
+    versions[11].style.display = "block";
 }
 
 function ver20() {
     hideAll();
-    versions[9].style.display = "block";
+    versions[10].style.display = "block";
 }
 
 function ver21() {
     hideAll();
-    versions[8].style.display = "block";
+    versions[9].style.display = "block";
 }
 
 function ver22() {
     hideAll();
-    versions[7].style.display = "block";
+    versions[8].style.display = "block";
 }
 
 function ver23() {
     hideAll();
-    versions[6].style.display = "block";
+    versions[7].style.display = "block";
 }
 
 function ver24() {
     hideAll();
-    versions[5].style.display = "block";
+    versions[6].style.display = "block";
 }
 
 function ver25() {
     hideAll();
-    versions[4].style.display = "block";
+    versions[5].style.display = "block";
 }
 
 function ver26() {
     hideAll();
-    versions[3].style.display = "block";
+    versions[4].style.display = "block";
 }
 
 function ver27() {
     hideAll();
-    versions[2].style.display = "block";
+    versions[3].style.display = "block";
 }
 
 function ver28() {
     hideAll();
-    versions[1].style.display = "block";
+    versions[2].style.display = "block";
 }
 
 function ver29() {
+    hideAll();
+    versions[1].style.display = "block";
+}
+
+function ver30() {
     hideAll();
     versions[0].style.display = "block";
 }

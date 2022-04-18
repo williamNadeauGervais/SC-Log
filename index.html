@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Farro|PT+Sans&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <style>
         /* width */
         ::-webkit-scrollbar {
@@ -42,6 +46,7 @@
     </header>
     <nav>
         <ul>
+            <li>v2.11</li>
             <li>v2.1</li>
             <li>v2.0</li>
             <li>v1.98</li>
@@ -4769,6 +4774,226 @@
                                     </ul>
                                 </div>
                             </div> <!-- v1-26 -->
+                            <!--/////////////////////////////////////////////////-->
+                                <div id="v1-28">
+                                    <img src="img/banniere1.png" class="headersection">
+                                    <div id="general">
+                                      <ul>
+                                          <li>Added a clearer notice when socketing a first relic/charm into a Tinkerer item</li>
+                                          <li>Shrine of Throns are more effective; it also gained Damage Reflection</li>
+                                          <li>Reduced potency of Tartarus' reflection modifier by 40%</li>
+                                          <li>Secret passage keys are now considered as Common, so that they don't appear on the minimap after the recent publicbeta patch</li>
+                                          <li>Rogue Dungeons : Dark Shaman's Secret Hideout, Temple of Ra and Obsidian Rink MIs that drop in those dungeons will now drop using affix tables from Act 4</li>
+                                          <li>Rogue Dungeons : Mount Blizzard's boss is stronger and gains a new skill</li>
+                                          <li>Rogue Dungeons : Improved quest reward</li>
+                                      </ul>
+                                    </div>
+                                    <img src="img/banniere2.png" class="headersection">
+                                    <div id="world">
+                                        <ul>
+                                            <li>Changed exit portal location for Mount Blizzard</li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/banniere6.png" class="headersection">
+                                    <div id="masteries">
+                                      <p><b>Archery</b></p>
+                                      <ul>
+                                          <li>Target Practice
+                                              <ul>
+                                                  <li>Dexterity bonus scales the same way as Attack Speed</li>
+                                              </ul>
+                                          </li>
+                                          <li>Magic Winds
+                                              <ul>
+                                                  <li>Appreciably increased scaling of damage for better end-damage</li>
+                                                  <li>Increased Movement speed debuff by 35%</li>
+                                                  <li>Reduced cooldown by 1 second</li>
+                                              </ul>
+                                          </li>
+                                              <li>Blinding Winds
+                                                  <ul>
+                                                      <li>Increased confusion chance</li>
+                                                  </ul>
+                                              </li>
+                                                  <li>Tempest
+                                                      <ul>
+                                                          <li>Increased elemental damage scaling</li>
+                                                          <li>Replaced Movement speed debuff to Attack Speed debuff, and increased the potency</li>
+                                                      </ul>
+                                                  </li>
+                                                      <li>Ranger's Prowess
+                                                          <ul>
+                                                              <li>Added ranged, spear or sword weapon requirement</li>
+                                                          </ul>
+                                                      </li>
+                                                          <li>Devastating Shots
+                                                              <ul>
+                                                                  <li>Removed weapon requirement</li>
+                                                              </ul>
+                                                          </li>
+                                                              <li>Ominous Arrows
+                                                                  <ul>
+                                                                      <li>Added Pierce damage to the skill</li>
+                                                                  </ul>
+                                                              </li>
+                                                                  <li>Scorching Edge
+                                                                      <ul>
+                                                                          <li>Increased physical damage and armor reduction</li>
+                                                                      </ul>
+                                                                  </li>
+                                      </ul>
+                                        <p><b>Chaos</b></p>
+                                        <ul>
+                                          <li>Blood Harvest
+                                            <ul>
+                                                <li>Added damage reduction debuff</li>
+                                            </ul>
+                                        </li>
+                                            <li>Devil's Rush
+                                                <ul>
+                                                    <li>Reduced energy cost by 10</li>
+                                                    <li>Increased flat Pierce damage to be equal to Vitality, percent Pierce damage scales the same as Physical damage</li>
+                                                </ul>
+                                            </li>
+                                                <li>Torturer's Delight
+                                                    <ul>
+                                                        <li>Reduced skill levels to 2 (you can reclaim extra skill points)</li>
+                                                        <li>Increased cooldown and mana cost</li>
+                                                        <li>Grants 5 targets maximum with 360 degress arc of attack</li>
+                                                        <li>Reduces damage of attack but grants Life Leech</li>
+                                                    </ul>
+                                                </li>
+                                        </ul>
+                                        <p><b>Destruction</b></p>
+                                        <ul>
+                                            <li>Prepare for Combat
+                                                <ul>
+                                                    <li>Set duration to 60 seconds</li>
+                                                    <li>Set recharge to 70 seconds</li>
+                                                </ul>
+                                            </li>
+                                                <li>Warborne
+                                                    <ul>
+                                                        <li>Set cooldown increase to 25 seconds</li>
+                                                    </ul>
+                                                </li>
+                                                    <li>Viciousness
+                                                        <ul>
+                                                            <li>Set cooldown increase to 25 seconds</li>
+                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                        <p><b>Geomancy</b></p>
+                                        <ul>
+                                            <li>Block
+                                                <ul>
+                                                    <li>Increased health restored by 50%</li>
+                                                    <li>Stun Retaliation chance scales quicker, now reaching 100% at Ultimate level</li>
+                                                </ul>
+                                            </li>
+                                            <li>Sharpstone Veil
+                                                <ul>
+                                                    <li>Increased duration by 2 seconds</li>
+                                                    <li>Increased recharge by 3 seconds</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <p><b>Lifegiving</b></p>
+                                        <ul>
+                                            <li>Gift of Life
+                                                <ul>
+                                                    <li>Increased meter radius to 5 meters</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <p><b>Necromancy</b></p>
+                                        <ul>
+                                            <li>Banishing Spell
+                                                <ul>
+                                                    <li>Increased Piercing damage, cold damage scales the same as Piercing now</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <p><b>Science</b></p>
+                                        <ul>
+                                            <li>Invigorate
+                                                <ul>
+                                                    <li>Increased lightning damage by 10%</li>
+                                                    <li>Increased recharge by 15 seconds</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/banniere3.png" class="headersection">
+                                    <div id="ennemis">
+                                      <ul>
+                                          <li>Sandqueen Masika can now wear helmets, allowing her to proprely drop MIs or the MU</li>
+                                      </ul>
+                                    </div>
+                                    <img src="img/banniere4.png" class="headersection">
+                                    <div id="items">
+                                        <ul>
+                                          <li>Affix changes :</li>
+                                          <ul>
+                                            <li>Desecrated, Profaned, Defiled : Removed health regeneration debuff</li>
+                                            <li>of Journeying, of Campaigning : Now available earlier in the game, of Campaigning has reduced level requirement</li>
+                                          </ul>
+                                          <li>MI changes :</li>
+                                          <ul>
+                                              <li>Angrboda's Hood : Added +1 to all skills in Chaos Mastery for all difficulties</li>
+                                              <li>Angrboda's Skirt : Added +1 to all skills in Chaos Mastery for all difficulties</li>
+                                              <li>Angrboda's Wraps : Added +1 to all skills in Chaos Mastery for all difficulties</li>
+                                              <li>Bandit's Clutch : Added health regeneration equal to energy regeneration, slightly increased Physical damage and increased Bleeding Damage by 33%</li>
+                                              <li>Cocytean Embrace : Increased Physical damage by 25%</li>
+                                              <li>Dvergr-Forged Longsword : Increased scale of mesh so that it looks more like a "Long" sword</li>
+                                              <li>Ichthian Shell : Greatly increased Freeze chance</li>
+                                              <li>Jackal's Harness : Increased level of granted Combat Spirit</li>
+                                              <li>Redfist Targe : Grants +2 to Archery on Epic, +3 on Legendary</li>
+                                              <li>Staff of the Chosen : Grants small Pierce and Poison resistance and a powerful pet bonus</li>
+                                              <li>Troll Branch : Increased Pierce damage by 12%, added chance of higher pierce damage</li>
+                                              <li>Vengeance : Now also increases Life Leech retaliation</li>
+                                          </ul>
+                                          <li>Unique changes :</li>
+                                          <ul>
+                                              <li>Assassinator's Prize : Increased bonuses of granted skill, doubled duration</li>
+                                              <li>Bladestring : Increasing Physical retaliation to 320</li>
+                                              <li>Bow of Eurytus : Added Energy Leech, increased skill points by 1 and Dexterity to 66</li>
+                                              <li>Butterfly : Increased Pierce Damage by 25%, granted skill deals 100% more damage</li>
+                                              <li>Earth Arrow : Fixed problem causing projectile fragments to cause low damage by granting physical damage</li>
+                                              <li>Hades' Scepter : Reduced cooldown of granted skill to 60 seconds</li>
+                                              <li>Helmet of the Einherjar : Granted energy to the summoned pets, so that they can actually use Battle Momentum</li>
+                                              <li>Killer's Pride : Increased flat and percent damage to 30, chance to pierce from the granted skill doubled</li>
+                                              <li>Rod of the Prime Werebat : Summoned pets are now treated as pets</li>
+                                              <li>Sapros the Corruptor : Base attack speed is now 'Very Slow'</li>
+                                              <li>Scepter of Thanatos : Added chance of increased Vitality Decay retaliation, added +4 to Malediction</li>
+                                              <li>Shield of Xaghra : Summoned pets are now treated as pets</li>
+                                              <li>S-nefer-ka's Magical Jewel : Increased Defensive Ability to 75, Pierce Damage to 65%</li>
+                                              <li>The Sleeper : Summoned pets are now treated as pets</li>
+                                              <li>Trident of the Five Oceans : Removed Cold Resistance, reduced Elemental Resistance to 25%</li>
+                                              <li>Verdant Plate : Reduced cooldown of granted Briar Ward to 25 seconds and energy cost by 50%</li>
+                                          </ul>
+                                          <li>Artifact changes :</li>
+                                          <ul>
+                                              <li>Essence of Anubis' Haste : Fixed incorrect table for completion bonuses</li>
+                                              <li>Peach of Immortality : Fixed incorrect completion bonus</li>
+                                              <li>Wodan's Price : Granted energy to the summoned pets, so that they can actually use Study Prey</li>
+                                          </ul>
+                                        </ul>
+                                    </div>
+                                    <img src="img/banniere5.png" class="headersection">
+                                    <div id="bugfixes">
+                                        <ul>
+                                            <li>Fixed some typos</li>
+                                            <li>Fixed some proxies that appeared above the ground causing them to float</li>
+                                            <li>Fixed a bug that prevented Stormgale Hoop to get affixes in Normal difficulty only</li>
+                                            <li>Fixed a bug that made Destroyer's prefix Rare instead of Magical</li>
+                                            <li>Fixed a bug that caused Inferno's VFX to be missing</li>
+                                            <li>Fixed a bug that caused The Watcher to be invisible on female characters on Dx11</li>
+                                            <li>Fixed a bug where Sharpstone Veil did not consider Racial damage</li>
+                                            <li>Fixed a bug where some Shadow legendaries had incorrect drop sounds in Inventory screen</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- v1-28 -->
     </section>
     <!--/////////////////////////////////////////////////-->
 
